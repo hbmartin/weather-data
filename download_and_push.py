@@ -5,7 +5,30 @@ import urllib.error
 import subprocess
 import sys
 import os
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
+
+
+def one_week_ago():
+    """Return date string from one week ago in YYYY-MM-DD format."""
+    one_week_back = datetime.now() - timedelta(days=7)
+    return one_week_back.strftime("%Y-%m-%d")
+
+
+FUNCTION_MAPPING = {
+    'one_week_ago': one_week_ago,
+}
+
+
+def replace_url_placeholders(url):
+    """Replace {function_name} placeholders in URL with function call results."""
+    def replacer(match):
+        func_name = match.group(1)
+        if func_name in FUNCTION_MAPPING:
+            return str(FUNCTION_MAPPING[func_name]())
+        return match.group(0)  # Return original if function not found
+    
+    return re.sub(r'\{([^}]+)\}', replacer, url)
 
 
 def read_url_mapping(mapping_file):
@@ -24,7 +47,8 @@ def read_url_mapping(mapping_file):
                     continue
 
                 url, filename = parts
-                url_mapping[url] = filename
+                processed_url = replace_url_placeholders(url)
+                url_mapping[processed_url] = filename
     except FileNotFoundError:
         print(f"Error: Mapping file '{mapping_file}' not found")
         sys.exit(1)

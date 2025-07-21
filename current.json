@@ -1,0 +1,51 @@
+{
+  "data": {
+    "inTemp": 78.4,
+    "inHumi": 27.0,
+    "AbsPress": 24.72,
+    "RelPress": 24.95,
+    "outTemp": 75.9,
+    "outHumi": 31.0,
+    "windir": 99.0,
+    "avgwind": 1.1,
+    "gustspeed": 2.2,
+    "dailygust": 6.9,
+    "solarrad": 715.3,
+    "uv": 2716.0,
+    "uvi": 6.0,
+    "pm25": null,
+    "rainofhourly": 0.0,
+    "eventrain": 0.0
+  },
+  "metadata": {
+    "labels": {
+      "CurrTime": "Receiver Time:",
+      "IndoorID": "Indoor Sensor ID and  Battery",
+      "inBattSta": "Indoor Sensor ID and  Battery",
+      "Outdoor1ID": "Outdoor Sensor ID and Battery",
+      "outBattSta1": "Outdoor Sensor ID and Battery",
+      "Outdoor2ID": "Outdoor2 Sensor ID and Battery",
+      "outBattSta2": "Outdoor2 Sensor ID and Battery",
+      "inTemp": "Indoor Temperature",
+      "inHumi": "Indoor Humidity",
+      "AbsPress": "Absolute Pressure",
+      "RelPress": "Relative Pressure",
+      "outTemp": "Outdoor Temperature",
+      "outHumi": "Outdoor Humidity",
+      "windir": "Wind Direction",
+      "avgwind": "Wind Speed",
+      "gustspeed": "Wind Gust",
+      "dailygust": "Max Daily Gust",
+      "solarrad": "Solar Radiation",
+      "uv": "UV",
+      "uvi": "UVI",
+      "pm25": "PM2.5",
+      "rainofhourly": "Hourly Rain Rate",
+      "eventrain": "Event Rain",
+      "rainofdaily": "Daily Rain",
+      "rainofweekly": "Weekly Rain",
+      "rainofmonthly": "Monthly Rain",
+      "rainofyearly": "Yearly Rain"
+    }
+  }
+}

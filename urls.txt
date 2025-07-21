@@ -1,3 +1,3 @@
 http://localhost:8080/ current.json
 http://localhost:8080/daily.json?tz=America/Los_Angeles&q=min_outTemp&q=max_outTemp&q=avg_outTemp&q=min_outHumi&q=avg_outHumi&q=max_outHumi&q=max_gustspeed&q=avg_avgwind&q=avg_uvi&q=avg_solarrad&q=avg_rainofhourly&q=min_avgwind&q=max_avgwind&q=min_uvi&q=max_uvi&q=min_solarrad&q=max_solarrad daily.json
-http://localhost:8080/hourly.json?tz=America/Los_Angeles&q=min_outTemp&q=max_outTemp&q=min_outHumi&q=max_outHumi&q=avg_avgwind&q=max_gustspeed&q=avg_rainofhourly&q=avg_outHumi&q=avg_outTemp&q=avg_uvi&q=avg_solarrad&q=min_avgwind&q=max_avgwind&q=min_uvi&q=max_uvi&q=min_solarrad&q=max_solarrad hourly.json
+http://localhost:8080/hourly.json?start_date={one_week_ago}&tz=America/Los_Angeles&q=min_outTemp&q=max_outTemp&q=min_outHumi&q=max_outHumi&q=avg_avgwind&q=max_gustspeed&q=avg_rainofhourly&q=avg_outHumi&q=avg_outTemp&q=avg_uvi&q=avg_solarrad&q=min_avgwind&q=max_avgwind&q=min_uvi&q=max_uvi&q=min_solarrad&q=max_solarrad hourly.json

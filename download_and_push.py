@@ -4,7 +4,6 @@ import urllib.request
 import urllib.error
 import subprocess
 import sys
-import os
 import re
 from datetime import datetime, timedelta
 
@@ -27,7 +26,7 @@ def replace_url_placeholders(url):
         if func_name in FUNCTION_MAPPING:
             return str(FUNCTION_MAPPING[func_name]())
         return match.group(0)  # Return original if function not found
-    
+
     return re.sub(r'\{([^}]+)\}', replacer, url)
 
 

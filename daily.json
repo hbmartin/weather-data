@@ -150,23 +150,23 @@
     {
       "date": "2025-07-23",
       "min_outTemp": 54.9,
-      "max_outTemp": 73.8,
-      "avg_outTemp": 63.66942148760331,
-      "min_outHumi": 20.0,
-      "avg_outHumi": 29.34710743801653,
+      "max_outTemp": 79.2,
+      "avg_outTemp": 67.51173184357542,
+      "min_outHumi": 19.0,
+      "avg_outHumi": 27.748603351955307,
       "max_outHumi": 46.0,
-      "max_gustspeed": 5.8,
-      "avg_avgwind": 0.47603305785123967,
-      "avg_uvi": 1.4297520661157024,
-      "avg_solarrad": 179.76438016528928,
+      "max_gustspeed": 8.1,
+      "avg_avgwind": 0.605586592178771,
+      "avg_uvi": 3.217877094972067,
+      "avg_solarrad": 363.6049162011173,
       "avg_rainofhourly": 0.0,
       "min_avgwind": 0.0,
       "max_avgwind": 4.0,
       "min_uvi": 0.0,
-      "max_uvi": 7.0,
+      "max_uvi": 8.0,
       "min_solarrad": 0.0,
-      "max_solarrad": 719.58,
-      "count": 121
+      "max_solarrad": 834.21,
+      "count": 179
     }
   ]
 }

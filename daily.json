@@ -1,27 +1,6 @@
 {
   "data": [
     {
-      "date": "2025-07-16",
-      "min_outTemp": 57.9,
-      "max_outTemp": 82.6,
-      "avg_outTemp": 72.68272727272728,
-      "min_outHumi": 20.0,
-      "avg_outHumi": 36.29090909090909,
-      "max_outHumi": 60.0,
-      "max_gustspeed": 5.8,
-      "avg_avgwind": 0.7481818181818182,
-      "avg_uvi": 3.0545454545454547,
-      "avg_solarrad": 351.7685,
-      "avg_rainofhourly": 0.0,
-      "min_avgwind": 0.0,
-      "max_avgwind": 3.8,
-      "min_uvi": 0.0,
-      "max_uvi": 7.0,
-      "min_solarrad": 0.0,
-      "max_solarrad": 819.04,
-      "count": 220
-    },
-    {
       "date": "2025-07-17",
       "min_outTemp": 63.5,
       "max_outTemp": 84.9,
@@ -151,14 +130,14 @@
       "date": "2025-07-23",
       "min_outTemp": 54.9,
       "max_outTemp": 79.2,
-      "avg_outTemp": 69.59915966386554,
+      "avg_outTemp": 68.77309090909091,
       "min_outHumi": 19.0,
-      "avg_outHumi": 27.478991596638654,
-      "max_outHumi": 46.0,
+      "avg_outHumi": 29.247272727272726,
+      "max_outHumi": 52.0,
       "max_gustspeed": 8.1,
-      "avg_avgwind": 0.7210084033613445,
-      "avg_uvi": 3.600840336134454,
-      "avg_solarrad": 408.2871848739496,
+      "avg_avgwind": 0.6534545454545455,
+      "avg_uvi": 3.138181818181818,
+      "avg_solarrad": 357.2851636363636,
       "avg_rainofhourly": 0.0,
       "min_avgwind": 0.0,
       "max_avgwind": 5.8,
@@ -166,7 +145,28 @@
       "max_uvi": 8.0,
       "min_solarrad": 0.0,
       "max_solarrad": 834.21,
-      "count": 238
+      "count": 275
+    },
+    {
+      "date": "2025-07-24",
+      "min_outTemp": 56.3,
+      "max_outTemp": 60.1,
+      "avg_outTemp": 57.921052631578945,
+      "min_outHumi": 37.0,
+      "avg_outHumi": 39.05263157894737,
+      "max_outHumi": 42.0,
+      "max_gustspeed": 2.2,
+      "avg_avgwind": 0.06842105263157895,
+      "avg_uvi": 0.0,
+      "avg_solarrad": 0.0,
+      "avg_rainofhourly": 0.0,
+      "min_avgwind": 0.0,
+      "max_avgwind": 0.7,
+      "min_uvi": 0.0,
+      "max_uvi": 0.0,
+      "min_solarrad": 0.0,
+      "max_solarrad": 0.0,
+      "count": 19
     }
   ]
 }

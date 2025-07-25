@@ -1,27 +1,6 @@
 {
   "data": [
     {
-      "date": "2025-07-17",
-      "min_outTemp": 63.5,
-      "max_outTemp": 84.9,
-      "avg_outTemp": 73.39,
-      "min_outHumi": 27.0,
-      "avg_outHumi": 42.605555555555554,
-      "max_outHumi": 54.0,
-      "max_gustspeed": 5.8,
-      "avg_avgwind": 0.5833333333333334,
-      "avg_uvi": 2.1555555555555554,
-      "avg_solarrad": 251.60322222222223,
-      "avg_rainofhourly": 0.0,
-      "min_avgwind": 0.0,
-      "max_avgwind": 4.0,
-      "min_uvi": 0.0,
-      "max_uvi": 9.0,
-      "min_solarrad": 0.0,
-      "max_solarrad": 959.48,
-      "count": 180
-    },
-    {
       "date": "2025-07-18",
       "min_outTemp": 58.1,
       "max_outTemp": 80.4,
@@ -151,14 +130,14 @@
       "date": "2025-07-24",
       "min_outTemp": 54.5,
       "max_outTemp": 80.8,
-      "avg_outTemp": 68.30202140309156,
+      "avg_outTemp": 67.9197021764032,
       "min_outHumi": 15.0,
-      "avg_outHumi": 30.864447086801427,
+      "avg_outHumi": 31.832760595647194,
       "max_outHumi": 58.0,
       "max_gustspeed": 8.1,
-      "avg_avgwind": 0.7785969084423306,
-      "avg_uvi": 2.933412604042806,
-      "avg_solarrad": 333.77304399524377,
+      "avg_avgwind": 0.7616265750286368,
+      "avg_uvi": 2.825887743413517,
+      "avg_solarrad": 321.53852233676974,
       "avg_rainofhourly": 0.0,
       "min_avgwind": 0.0,
       "max_avgwind": 5.8,
@@ -166,7 +145,28 @@
       "max_uvi": 8.0,
       "min_solarrad": 0.0,
       "max_solarrad": 851.09,
-      "count": 841
+      "count": 873
+    },
+    {
+      "date": "2025-07-25",
+      "min_outTemp": 55.8,
+      "max_outTemp": 57.2,
+      "avg_outTemp": 56.34615384615385,
+      "min_outHumi": 56.0,
+      "avg_outHumi": 56.15384615384615,
+      "max_outHumi": 57.0,
+      "max_gustspeed": 2.2,
+      "avg_avgwind": 0.16538461538461538,
+      "avg_uvi": 0.0,
+      "avg_solarrad": 0.0,
+      "avg_rainofhourly": 0.0,
+      "min_avgwind": 0.0,
+      "max_avgwind": 0.9,
+      "min_uvi": 0.0,
+      "max_uvi": 0.0,
+      "min_solarrad": 0.0,
+      "max_solarrad": 0.0,
+      "count": 26
     }
   ]
 }

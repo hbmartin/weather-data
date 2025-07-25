@@ -1,12 +1,12 @@
 {
   "data": {
     "inTemp": 54.0,
-    "inHumi": 31.0,
+    "inHumi": 25.0,
     "AbsPress": 24.75,
-    "RelPress": 24.98,
-    "outTemp": 54.1,
-    "outHumi": 31.0,
-    "windir": 16.0,
+    "RelPress": 24.97,
+    "outTemp": 55.2,
+    "outHumi": 26.0,
+    "windir": 349.0,
     "avgwind": 0.2,
     "gustspeed": 1.1,
     "dailygust": 3.4,
